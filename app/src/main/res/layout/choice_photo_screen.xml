@@ -1,0 +1,210 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_tiles"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_tiles"
+                    android:fitsSystemWindows="true">
+
+                    <android.support.v7.widget.Toolbar
+                        android:id="@+id/animation_tolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        android:background="@color/candidate_recommended"
+                        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+                    <RelativeLayout
+                        android:layout_below="@+id/animation_tolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/customborder">
+
+                        <RelativeLayout
+                            android:id="@+id/adViewRel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:visibility="invisible" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/my_photo_keybord"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:gravity="center_horizontal"
+                        android:text="Cheetah Keyboard"
+                        android:textColor="@android:color/holo_green_dark"
+                        android:textSize="24sp" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".3"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/text_priview_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Preview"
+                    android:textColor="#000"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/set_background_imgview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:layout_below="@+id/text_priview_name"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/img_defa" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/set_background_imgview"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/bg_tiles"
+                    android:orientation="vertical"
+                    android:weightSum="6">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="4dp"
+                            android:text=""
+                            android:textColor="#a8a8a8"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1" />
+
+                        <RelativeLayout
+                            android:id="@+id/select_img_reltiv"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2">
+
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true">
+
+                                <ImageView
+                                    android:id="@+id/select_img"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:src="@drawable/ic_picture" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/select_img"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="4dp"
+                                    android:text="Gallary"
+                                    android:textColor="@android:color/holo_green_dark"
+                                    android:textSize="14sp" />
+                            </RelativeLayout>
+                        </RelativeLayout>
+
+<!--                        <RelativeLayout
+                            android:id="@+id/open_camera_relativ"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2">
+
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true">
+
+                                <ImageView
+                                    android:id="@+id/open_camera"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:src="@drawable/my_camera_btn" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/open_camera"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="4dp"
+                                    android:text="Camera"
+                                    android:textColor="#a8a8a8"
+                                    android:textSize="14sp" />
+                            </RelativeLayout>
+                        </RelativeLayout>-->
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

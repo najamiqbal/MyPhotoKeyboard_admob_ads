@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_height_portrait" translatable="false">25%</string>
+    <string name="default_height_landscape" translatable="false">45%</string>
+    <string name="default_keyboard_mode_portrait" translatable="false">2</string>
+</resources>

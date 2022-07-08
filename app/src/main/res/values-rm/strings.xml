@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <skip />
+    <string name="vibrate_on_keypress" msgid="5258079494276955460">"Vibrar cun smatgar in buttun"</string>
+    <string name="sound_on_keypress" msgid="6093592297198243644">"Tun cun smatgar in buttun"</string>
+    <string name="popup_on_keypress" msgid="123894815723512944">"Pop-up cun smatgar ina tasta"</string>
+    <string name="prediction_category" msgid="7027100625580696660">"Parameters da las propostas per pleds"</string>
+    <string name="auto_cap" msgid="1719746674854628252">"Maiusclas automaticas"</string>
+    <string name="quick_fixes" msgid="5353213327680897927">"Correcturas sveltas"</string>
+    <string name="quick_fixes_summary" msgid="3405028402510332373">"Curregia sbagls da tippar currents"</string>
+    <string name="show_suggestions" msgid="507074425254289133">"Mussar las propostas"</string>
+    <string name="show_suggestions_summary" msgid="1989672863935759654">"Mussar pleds proponids durant l\'endataziun"</string>
+    <string name="auto_complete" msgid="1103196318775486023">"Cumplettaziun automatica"</string>
+    <string name="auto_complete_summary" msgid="6113149638718274624">"Inserir auto. il pled marcà cun la tasta da vid/interpuncziun"</string>
+    <skip />
+    <skip />
+    <skip />
+    <skip />
+    <string name="added_word" msgid="8993883354622484372">"<xliff:g id="WORD">%s</xliff:g> : Memorisà"</string>
+    <string name="touch_to_continue" msgid="7869803257948414531">"Tutgar quest commentari per cuntinuar »"</string>
+    <string name="touch_to_finish" msgid="7990196086480585789">"\"Tutgar qua, per serrar quest commentari e cumenzar a tippar!\""</string>
+    <string name="tip_to_open_keyboard" msgid="6821200275486950452"><b>"La tastatura vegn adina averta sche Vus tutgais in champ da text."</b></string>
+    <string name="tip_to_view_accents" msgid="5433158573693308501">"\""<b>"Tegnai smatgà ina tasta per mussar ils segns spezials"\n"(ø, ö, ô, ó etc.)."</b>"\""</string>
+    <string name="tip_to_open_symbols" msgid="7345139325622444880"><b>"Midai a numers e simbols cun tutgar quest buttun."</b></string>
+    <string name="tip_to_close_symbols" msgid="5227724217206927185"><b>"Turnai a letras cun smatgar danovamain quest buttun."</b></string>
+    <string name="tip_to_launch_settings" msgid="8402961128983196128">"\""<b>"Tegnai smatgà quest buttun per midar ils parameters da tastatura, sco p. ex. la cumplettaziun automatica."</b>"\""</string>
+    <string name="tip_to_start_typing" msgid="7213843601369174313"><b>"Empruvai!"</b></string>
+    <string name="label_go_key" msgid="1635148082137219148">"Dai"</string>
+    <string name="label_next_key" msgid="362972844525672568">"Vinavant"</string>
+    <string name="label_done_key" msgid="2441578748772529288">"Finì"</string>
+    <string name="label_send_key" msgid="2815056534433717444">"Trametter"</string>
+    <string name="label_symbol_key" msgid="6175820506864489453">"?123"</string>
+    <string name="label_phone_key" msgid="4275497665515080551">"123"</string>
+    <string name="label_alpha_key" msgid="8864943487292437456">"ABC"</string>
+    <string name="label_alt_key" msgid="2846315350346694811">"ALT"</string>
+    <string name="voice_input" msgid="2466640768843347841">"Cumonds vocals"</string>
+  <string-array name="voice_input_modes">
+    <item msgid="1349082139076086774">"Sin la tastatura principala"</item>
+    <item msgid="8529385602829095903">"Sin la tastatura da simbols"</item>
+    <item msgid="7283103513488381103">"Deactivà"</item>
+  </string-array>
+  <string-array name="voice_input_modes_summary">
+    <item msgid="554248625705084903">"Microfon sin la tastatura principala"</item>
+    <item msgid="6907837061058876770">"Microfon sin la tastatura da simbols"</item>
+    <item msgid="3664304608587798036">"Ils cumonds vocals èn deactivads"</item>
+  </string-array>
+    <string name="popular_domain_1" msgid="1370572248164278467">".net"</string>
+    <string name="popular_domain_2" msgid="3036812463748402878">".org"</string>
+    <string name="popular_domain_3" msgid="8718639560809452028">".gov"</string>
+    <string name="popular_domain_4" msgid="35359437471311470">".edu"</string>
+    <skip />
+    <string name="language_selection_title" msgid="1651299598555326750">"Linguas da cumonds vocals"</string>
+    <string name="language_selection_summary" msgid="187110938289512256">"Stritgar cun il det sur la tasta da vid per midar la lingua"</string>
+    <string name="hint_add_to_dictionary" msgid="9006292060636342317">"← Tippar danovamain per memorisar"</string>
+    <string name="has_dictionary" msgid="6071847973466625007">"Dicziunari disponibel"</string>
+    <string name="prefs_enable_log" msgid="6620424505072963557">"Activar il feedback da l\'utilisader"</string>
+    <string name="prefs_description_log" msgid="5827825607258246003">"Gidai a meglierar quest editur da la metoda d\'endataziun cun trametter automaticamain datas statisticas davart l\'utilisaziun e rapports da collaps a Google."</string>
+    <skip />
+    <skip />
+    <string name="keyboard_layout" msgid="437433231038683666">"Design da la tastatura"</string>
+</resources>

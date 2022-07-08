@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyPhotoKeyboard_admob_ads.iml" filepath="$PROJECT_DIR$/.idea/modules/MyPhotoKeyboard_admob_ads.iml" group="MyPhotoKeyboard_admob_ads" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="MyPhotoKeyboard_admob_ads/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/smileyrating/smileyrating.iml" filepath="$PROJECT_DIR$/.idea/modules/smileyrating/smileyrating.iml" group="MyPhotoKeyboard_admob_ads/smileyrating" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="ExtraTranslation">
+    <string name="english_ime_input_options" msgid="3909945612939668554">"Eingabeoptionen"</string>
+    <string name="vibrate_on_keypress" msgid="5258079494276955460">"Vibrieren b. Tastendruck"</string>
+    <string name="sound_on_keypress" msgid="6093592297198243644">"Ton bei Tastendruck"</string>
+    <string name="popup_on_keypress" msgid="123894815723512944">"Pop-up bei Tastendruck"</string>
+    <string name="prediction_category" msgid="7027100625580696660">"Einstellungen für Wortvorschläge"</string>
+    <string name="auto_cap" msgid="1719746674854628252">"Autom. Groß-/Kleinschr."</string>
+    <string name="quick_fixes" msgid="5353213327680897927">"Quick Fixes"</string>
+    <string name="quick_fixes_summary" msgid="3405028402510332373">"Korrigiert gängige Tippfehler"</string>
+    <string name="show_suggestions" msgid="507074425254289133">"Vorschläge anzeigen"</string>
+    <string name="show_suggestions_summary" msgid="1989672863935759654">"Vorgeschlagene Wörter während des Tippens anzeigen"</string>
+    <string name="auto_complete" msgid="1103196318775486023">"Autom. vervollständigen"</string>
+    <string name="auto_complete_summary" msgid="6113149638718274624">"Leertaste und Interpunktion fügen autom. ein markiertes Wort ein"</string>
+    <string name="prefs_settings_key" msgid="4623341240804046498">"Einstellungstaste anz."</string>
+    <string name="settings_key_mode_auto_name" msgid="2993460277873684680">"Automatisch"</string>
+    <string name="settings_key_mode_always_show_name" msgid="3047567041784760575">"Immer anzeigen"</string>
+    <string name="settings_key_mode_always_hide_name" msgid="7833948046716923994">"Immer ausblenden"</string>
+    <string name="added_word" msgid="8993883354622484372">"<xliff:g id="WORD">%s</xliff:g>: gespeichert"</string>
+    <string name="touch_to_continue" msgid="7869803257948414531">"Diesen Hinweis berühren, um fortzufahren »"</string>
+    <string name="touch_to_finish" msgid="7990196086480585789">"Hier berühren, um diesen Hinweis zu schließen und mit dem Tippen zu beginnen!"</string>
+    <string name="tip_to_open_keyboard" msgid="6821200275486950452"><b>"Die Tastatur wird immer dann geöffnet, wenn Sie ein Textfeld berühren."</b></string>
+    <string name="tip_to_view_accents" msgid="5433158573693308501"><b>"Halten Sie eine Taste gedrückt, um Akzente anzuzeigen"\n"(ø, ö, ô, ó usw.)."</b></string>
+    <string name="tip_to_open_symbols" msgid="7345139325622444880"><b>"Wechseln Sie zu Ziffern und Symbolen, indem Sie diese Taste berühren."</b></string>
+    <string name="tip_to_close_symbols" msgid="5227724217206927185"><b>"Durch erneutes Drücken dieser Taste gelangen Sie zurück zu den Buchstaben."</b></string>
+    <string name="tip_to_launch_settings" msgid="8402961128983196128"><b>"Halten Sie diese Taste gedrückt, um die Tastatureinstellungen, wie beispielsweise die automatische Vervollständigung, zu ändern."</b></string>
+    <string name="tip_to_start_typing" msgid="7213843601369174313"><b>"Probieren Sie es aus!"</b></string>
+    <string name="label_go_key" msgid="1635148082137219148">"Los"</string>
+    <string name="label_next_key" msgid="362972844525672568">"Weiter"</string>
+    <string name="label_done_key" msgid="2441578748772529288">"Fertig"</string>
+    <string name="label_send_key" msgid="2815056534433717444">"Senden"</string>
+    <string name="label_symbol_key" msgid="6175820506864489453">"?123"</string>
+    <string name="label_phone_key" msgid="4275497665515080551">"123"</string>
+    <string name="label_alpha_key" msgid="8864943487292437456">"ABC"</string>
+    <string name="label_alt_key" msgid="2846315350346694811">"ALT"</string>
+    <string name="voice_input" msgid="2466640768843347841">"Spracheingabe"</string>
+    <string-array name="voice_input_modes">
+        <item msgid="1349082139076086774">"Auf Haupttastatur"</item>
+        <item msgid="8529385602829095903">"Auf Symboltastatur"</item>
+        <item msgid="7283103513488381103">"Aus"</item>
+    </string-array>
+    <string-array name="voice_input_modes_summary">
+        <item msgid="554248625705084903">"Mikrofon auf Haupttastatur"</item>
+        <item msgid="6907837061058876770">"Mikrofon auf Symboltastatur"</item>
+        <item msgid="3664304608587798036">"Spracheingabe ist deaktiviert"</item>
+    </string-array>
+    <string name="popular_domain_1" msgid="1370572248164278467">".net"</string>
+    <string name="popular_domain_2" msgid="3036812463748402878">".org"</string>
+    <string name="popular_domain_3" msgid="8718639560809452028">".gov"</string>
+    <string name="popular_domain_4" msgid="35359437471311470">".edu"</string>
+    <string name="selectInputMethod" msgid="315076553378705821">"Eingabemethode auswählen"</string>
+    <string name="language_selection_title" msgid="1651299598555326750">"Eingabesprachen"</string>
+    <string name="language_selection_summary" msgid="187110938289512256">"Finger über die Leertaste bewegen, um die Eingabesprache zu wechseln"</string>
+    <string name="hint_add_to_dictionary" msgid="9006292060636342317">"← Zum Speichern erneut berühren"</string>
+    <string name="has_dictionary" msgid="6071847973466625007">"Wörterbuch verfügbar"</string>
+    <string name="prefs_enable_log" msgid="6620424505072963557">"Nutzer-Feedback aktivieren"</string>
+    <string name="prefs_description_log" msgid="5827825607258246003">"Tragen Sie zur Verbesserung dieses Eingabemethodeneditors bei, indem Sie automatisch Nutzungsstatistiken und Absturzberichte an Google senden."</string>
+    <string name="prefs_enable_recorrection" msgid="4588408906649533582">"Wortkorrektur"</string>
+    <string name="prefs_enable_recorrection_summary" msgid="1056068922330206170">"Zum Korrigieren auf eingegebene Wörter tippen"</string>
+    <string name="keyboard_layout" msgid="437433231038683666">"Tastaturdesign"</string>
+</resources>

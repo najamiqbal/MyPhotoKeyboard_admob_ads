@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="keyboard.cheetahphotokeyboard.neon">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="androzid.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.faketouch"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:backupAgent="keyboard.cheetahphotokeyboard.neon.Backup_Img_My_Keybord"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:killAfterRestore="false"
+        android:label="@string/english_ime_name"
+        android:restoreAnyVersion="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+
+        <service
+            android:name="keyboard.cheetahphotokeyboard.neon.LatinIME"
+            android:label="@string/english_ime_name"
+            android:permission="android.permission.BIND_INPUT_METHOD">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
+        </service>
+
+        <activity
+            android:name="keyboard.cheetahphotokeyboard.neon.activity.Keyboard_Start_Screen"
+            android:label="@string/english_ime_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="keyboard.cheetahphotokeyboard.neon.activity.Rate_us_activity" />
+        <activity
+            android:name="keyboard.cheetahphotokeyboard.neon.activity.Keyboard_Set_Photo_Style"
+            android:label="@string/english_ime_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="keyboard.cheetahphotokeyboard.neon.activity.Keybord_Secure_Screen"
+            android:label="@string/english_ime_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="keyboard.cheetahphotokeyboard.neon.gallery.My_Photo_Gallery_Img"
+            android:label="@string/english_ime_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="keyboard.cheetahphotokeyboard.neon.activity.keyboard_Home_Activity"
+            android:label="@string/english_ime_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="keyboard.cheetahphotokeyboard.neon.activity.Choise_Photo_My_Keybord"
+            android:label="@string/english_ime_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="keyboard.cheetahphotokeyboard.neon.gallery.Mu_Photo_Gallery_Img__Save"
+            android:label="@string/english_ime_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="keyboard.cheetahphotokeyboard.neon.My_Keybord_Img_Service"
+            android:label="@string/english_ime_settings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="keyboard.cheetahphotokeyboard.neon.xml_file.My_Keyboard_dibug_Service"
+            android:label="@string/english_ime_debug_settings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="keyboard.cheetahphotokeyboard.neon.My_Keyboard_Set_Bhasha"
+            android:label="@string/language_selection_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.keyboard.keyboardthemes.INPUT_LANGUAGE_SELECTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="keyboard.cheetahphotokeyboard.neon.xml_file.My_Keybord_Scren_action"
+            android:label="@string/pref_screen_actions_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.keyboard.keyboardthemes.PREFS_ACTIONS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="keyboard.cheetahphotokeyboard.neon.Keybord_Refernce_Activity"
+            android:label="@string/pref_screen_actions_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.keyboard.keyboardthemes.PREFS_VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="keyboard.cheetahphotokeyboard.neon.xml_file.My_Keybord_Review"
+            android:label="@string/pref_screen_feedback_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.keyboard.keyboardthemes.PREFS_FEEDBACK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="keyboard.cheetahphotokeyboard.neon.activity.keybord_Set_style"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+
+    </application>
+
+</manifest>

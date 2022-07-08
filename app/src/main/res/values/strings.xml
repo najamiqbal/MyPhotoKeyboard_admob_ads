@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools"
+
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="english_ime_name" translatable="false">Cheetah keyboard</string>
+    <string name="english_ime_settings" translatable="false">Settings for My Photo Keyboard</string>
+    <string name="english_ime_input_options" translatable="false">Input options</string>
+    <string name="title_keyboard_view_settings" translatable="false">Keyboard view settings</string>
+    <string name="title_keyboard_height_portrait" translatable="false">Keyboard height, portrait</string>
+    <string name="title_keyboard_height_landscape" translatable="false">Keyboard height, landscape</string>
+    <string name="title_key_layout_options" translatable="false">Key layout options</string>
+    <string name="title_key_behavior_settings" translatable="false">Key behavior settings</string>
+    <string name="title_long_press_alternate_keys" translatable="false">Long-press alternate keys</string>
+    <string name="title_suggested_punctuation" translatable="false">Suggested punctuation</string>
+    <string name="title_input_mode_settings" translatable="false">Input mode settings</string>
+    <string name="title_debugging" translatable="false">Debugging</string>
+    <string name="title_input_connection_details" translatable="false">Input connection details</string>
+    <string name="title_version" translatable="false">Version</string>
+    <string name="title_swipe_gestures" translatable="false">Swipe gestures (experimental)</string>
+    <string name="title_hardware_key_actions" translatable="false">Hardware key actions</string>
+    <string name="vibrate_on_keypress">Vibrate on keypress</string>
+    <string name="sound_on_keypress">Sound on keypress</string>
+    <string name="popup_on_keypress">Popup on keypress</string>
+    <string name="prediction_category">Word suggestion settings</string>
+    <string name="auto_cap">Auto-capitalization</string>
+    <string name="quick_fixes">Quick fixes</string>
+    <string name="quick_fixes_summary">Corrects commonly typed mistakes</string>
+    <string name="show_suggestions">Show suggestions</string>
+    <string name="show_suggestions_summary">Display suggested words while typing</string>
+    <string name="auto_complete">Auto-complete</string>
+    <string name="auto_complete_summary">Spacebar and punctuation automatically insert highlighted word</string>
+    <string name="prefs_settings_key">Show settings key</string>
+    <string-array name="settings_key_modes_values" translatable="false">
+        <item>@string/settings_key_mode_auto</item>
+        <item>@string/settings_key_mode_always_show</item>
+        <item>@string/settings_key_mode_always_hide</item>
+    </string-array>
+    <string name="settings_key_mode_auto_name">Automatic</string>
+    <string name="settings_key_mode_always_show_name">Always show</string>
+    <string name="settings_key_mode_always_hide_name">Always hide</string>
+    <string-array name="settings_key_modes">
+        <item>@string/settings_key_mode_auto_name</item>
+        <item>@string/settings_key_mode_always_show_name</item>
+        <item>@string/settings_key_mode_always_hide_name</item>
+    </string-array>
+    <string name="added_word"><xliff:g id="word">%s</xliff:g> : Saved</string>
+    <string name="touch_to_continue">Touch this hint to continue »</string>
+    <string name="touch_to_finish">Touch here to close this hint and start typing!</string>
+    <string name="tip_to_open_keyboard"><b>The keyboard opens any time you touch a text field</b></string>
+    <string name="tip_to_view_accents"><b>Touch &amp; hold a key to view accents\n(ø, ö, ô, ó, and so on)</b></string>
+    <string name="tip_to_open_symbols"><b>Switch to numbers and symbols by touching this key</b></string>
+    <string name="tip_to_close_symbols"><b>Go back to letters by touching this key again</b></string>
+    <string name="tip_to_launch_settings"><b>Touch &amp; hold this key to change keyboard settings, like auto complete</b></string>
+    <string name="tip_to_start_typing"><b>Try it!</b></string>
+    <string name="label_go_key">Go</string>
+    <string name="label_next_key">Next</string>
+    <string name="label_done_key">Done</string>
+    <string name="label_send_key">Send</string>
+    <string name="label_symbol_key">\?123</string>
+    <string name="label_phone_key">123</string>
+
+    <string name="label_alpha_key">ABC</string>
+    <string name="label_alt_key">ALT</string>
+
+    <!-- Short message shown when the server couldn't parse any speech. -->
+    <string name="voice_input">Voice input</string>
+    <string-array name="voice_input_modes">
+        <item>On main keyboard</item>
+        <item>On symbols keyboard</item>
+        <item>Off</item>
+    </string-array>
+    <string name="voice_mode_main" translatable="false">0</string>
+    <string name="voice_mode_symbols" translatable="false">1</string>
+    <string name="voice_mode_off" translatable="false">2</string>
+    <string-array name="voice_input_modes_values" translatable="false">
+        <item>@string/voice_mode_main</item>
+        <item>@string/voice_mode_symbols</item>
+        <item>@string/voice_mode_off</item>
+    </string-array>
+    <string-array name="voice_input_modes_summary">
+        <item>Mic on main keyboard</item>
+        <item>Mic on symbols keyboard</item>
+        <item>Voice input is disabled</item>
+    </string-array>
+    <skip />
+    <string name="popular_domain_1">".net"</string>
+    <string name="popular_domain_2">".org"</string>
+    <string name="popular_domain_3">".gov"</string>
+    <string name="popular_domain_4">".edu"</string>
+    <string name="selectInputMethod">Select input method</string>
+    <string name="language_selection_title">Input languages</string>
+    <string name="language_selection_summary">Slide finger on spacebar to change language</string>
+    <string name="hint_add_to_dictionary">\u2190 Touch again to save</string>
+    <string name="has_dictionary">Dictionary available</string>
+    <string name="prefs_enable_log">Enable user feedback</string>
+    <string name="prefs_description_log">Help improve this input method editor by automatically sending usage statistics and crash reports to Google.</string>
+    <string name="prefs_enable_recorrection">Touch to correct words</string>
+    <string name="prefs_enable_recorrection_summary">Touch entered words to correct them</string>
+    <string name="pref_screen_feedback_title">Key feedback settings</string>
+    <string name="pref_screen_view_title">Theme and label settings</string>
+    <string name="keyboard_layout">Keyboard Theme</string>
+    <string name="theme_exo_1" translatable="false">Theme 1</string>
+    <string name="theme_exo_2" translatable="false">Theme 2</string>
+    <string name="theme_exo_3" translatable="false">Theme 3</string>
+    <string name="theme_exo_4" translatable="false">Theme 4</string>
+    <string name="theme_exo_5" translatable="false">Theme 5</string>
+    <string name="theme_exo_6" translatable="false">Theme 6</string>
+    <string name="theme_exo_7" translatable="false">Theme 7</string>
+    <string name="theme_exo_8" translatable="false">Theme 8</string>
+    <string name="theme_exo_9" translatable="false">Theme 9</string>
+    <string name="theme_exo_10" translatable="false">Theme 10</string>
+    <string name="theme_exo_11" translatable="false">Theme 11</string>
+    <string name="theme_exo_12" translatable="false">Theme 12</string>
+    <string name="theme_exo_13" translatable="false">Theme 13</string>
+    <string name="theme_exo_14" translatable="false">Theme 14</string>
+    <string name="theme_exo_15" translatable="false">Theme 15</string>
+    <string name="theme_exo_16" translatable="false">Theme 16</string>
+    <string name="theme_exo_17" translatable="false">Theme 17</string>
+    <string name="theme_exo_18" translatable="false">Theme 18</string>
+    <string name="theme_exo_19" translatable="false">Theme 19</string>
+    <string name="theme_exo_20" translatable="false">Theme 20</string>
+    <string name="theme_exo_21" translatable="false">Theme 21</string>
+    <string name="theme_exo_22" translatable="false">Theme 22</string>
+    <string name="theme_exo_23" translatable="false">Theme 23</string>
+    <string name="theme_exo_24" translatable="false">Theme 24</string>
+    <string name="theme_exo_25" translatable="false">Theme 25</string>
+    <string name="theme_exo_26" translatable="false">Theme 26</string>
+    <string name="theme_exo_27" translatable="false">Theme 27</string>
+    <string name="theme_exo_28" translatable="false">Theme 28</string>
+    <string name="theme_exo_29" translatable="false">Theme 29</string>
+    <string name="theme_exo_30" translatable="false">Theme 30</string>
+    <string name="theme_exo_31" translatable="false">Theme 31</string>
+    <string name="theme_exo_32" translatable="false">Theme 32</string>
+    <string name="theme_exo_33" translatable="false">Theme 33</string>
+    <string name="theme_exo_34" translatable="false">Theme 34</string>
+    <string name="theme_exo_35" translatable="false">Theme 35</string>
+
+    <string-array name="keyboard_layout_modes" translatable="false">
+        <item>@string/theme_exo_1</item>
+        <item>@string/theme_exo_2</item>
+        <item>@string/theme_exo_3</item>
+        <item>@string/theme_exo_4</item>
+        <item>@string/theme_exo_5</item>
+        <item>@string/theme_exo_6</item>
+        <item>@string/theme_exo_7</item>
+        <item>@string/theme_exo_8</item>
+        <item>@string/theme_exo_9</item>
+        <item>@string/theme_exo_10</item>
+        <item>@string/theme_exo_11</item>
+        <item>@string/theme_exo_12</item>
+        <item>@string/theme_exo_13</item>
+        <item>@string/theme_exo_14</item>
+        <item>@string/theme_exo_15</item>
+        <item>@string/theme_exo_16</item>
+        <item>@string/theme_exo_17</item>
+        <item>@string/theme_exo_18</item>
+        <item>@string/theme_exo_19</item>
+        <item>@string/theme_exo_20</item>
+        <item>@string/theme_exo_21</item>
+        <item>@string/theme_exo_22</item>
+        <item>@string/theme_exo_23</item>
+        <item>@string/theme_exo_24</item>
+        <item>@string/theme_exo_25</item>
+        <item>@string/theme_exo_26</item>
+        <item>@string/theme_exo_27</item>
+        <item>@string/theme_exo_28</item>
+        <item>@string/theme_exo_29</item>
+        <item>@string/theme_exo_30</item>
+        <item>@string/theme_exo_31</item>
+        <item>@string/theme_exo_32</item>
+        <item>@string/theme_exo_33</item>
+        <item>@string/theme_exo_34</item>
+        <item>@string/theme_exo_35</item>
+    </string-array>
+    <string-array name="keyboard_layout_modes_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+    </string-array>
+
+    <string name="title_keyboard_mode_portrait">Keyboard mode, portrait</string>
+    <string name="title_keyboard_mode_landscape">Keyboard mode, landscape</string>
+    <string name="title_compact_mode_enabled">Enable compact 5-row keyboard mode</string>
+    <string name="summary_compact_mode_enabled">US QWERTY only, and experimental!</string>
+
+    <string-array name="keyboard_mode_entries">
+        <item>4-row Gingerbread layout</item>
+        <item>5-row compact layout (US QWERTY only!)</item>
+        <item>Full 5-row layout</item>
+    </string-array>
+    <string-array name="keyboard_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="title_chording_ctrl_key">Ctrl key code</string>
+    <string name="default_chording_ctrl_key">0</string>
+
+    <string-array name="chording_ctrl_key_entries">
+        <item>None (ignored when not modifying other keys)</item>
+        <item>Left Ctrl</item>
+        <item>Right Ctrl</item>
+    </string-array>
+    <string-array name="chording_ctrl_key_values">
+        <item>0</item>
+        <item>113</item>
+        <item>114</item>
+    </string-array>
+
+    <string name="title_chording_alt_key">Alt key code</string>
+    <string name="default_chording_alt_key">0</string>
+
+    <string-array name="chording_alt_key_entries">
+        <item>None (ignored when not modifying other keys)</item>
+        <item>Left Alt</item>
+        <item>Right Alt</item>
+    </string-array>
+    <string-array name="chording_alt_key_values">
+        <item>0</item>
+        <item>57</item>
+        <item>58</item>
+    </string-array>
+
+    <string name="title_chording_meta_key">Meta key code</string>
+    <string name="default_chording_meta_key">0</string>
+
+    <string-array name="chording_meta_key_entries">
+        <item>None (ignored when not modifying other keys)</item>
+        <item>Left Meta</item>
+        <item>Right Meta</item>
+    </string-array>
+    <string-array name="chording_meta_key_values">
+        <item>0</item>
+        <item>117</item>
+        <item>118</item>
+    </string-array>
+
+    <string name="title_suggestions_in_landscape">Suggestions in landscape mode</string>
+    <string name="summary_suggestions_in_landscape_true">Same as in portrait mode</string>
+    <string name="summary_suggestions_in_landscape_false">Hide suggestions in landscape mode</string>
+    <string name="title_fullscreen_override">Landscape mode fullscreen editor</string>
+    <string name="summary_fullscreen_override_true">Disabled, use standard view</string>
+    <string name="summary_fullscreen_override_false">Enabled on small devices</string>
+    <string name="title_force_keyboard_on">Show soft keyboard</string>
+    <string name="summary_force_keyboard_on_true">Always</string>
+    <string name="summary_force_keyboard_on_false">When no hardware keyboard is available</string>
+    <string name="title_keyboard_notification">Use permanent notification</string>
+    <string name="summary_keyboard_notification_true">Activate the keyboard by tapping the notification</string>
+    <string name="summary_keyboard_notification_false">No notification</string>
+    <string name="title_application_category">Application-specific settings</string>
+    <string name="title_connectbot_tab_hack">ConnectBot tab key mode</string>
+    <string name="summary_connectbot_tab_hack_true">Enable compatibility workaround</string>
+    <string name="summary_connectbot_tab_hack_false">Send plain Tab key event</string>
+    <string name="title_caps_lock">Double-tap Shift mode</string>
+    <string name="summary_caps_lock_true">Caps Lock (q1 => Q1)</string>
+    <string name="summary_caps_lock_false">Shift Lock (q1 => Q!)</string>
+    <string name="title_shift_lock_modifiers">Apply Shift Lock to modifier keys?</string>
+    <string name="summary_shift_lock_modifiers_true">Yes, including arrow keys</string>
+    <string name="summary_shift_lock_modifiers_false">No, normal keys only</string>
+    <string name="title_hint_mode">Labeled alternate keys</string>
+
+    <string-array name="hint_modes">
+        <item>Hide hint labels</item>
+        <item>Show ASCII punctuation</item>
+        <item>Show all hint labels</item>
+    </string-array>
+    <string-array name="hint_modes_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="default_hint_mode">1</string>
+    <string name="title_touch_pos">Debug touch screen position</string>
+    <string name="summary_touch_pos_true">Show feedback for touch screen location</string>
+    <string name="summary_touch_pos_false">Off</string>
+    <string name="title_slide_keys">Sliding key events</string>
+    <string-array name="slide_keys_entries">
+        <item>Ignore keys during sliding movement (Recommended)</item>
+        <item>Send first key touched</item>
+        <item>Send last key touched</item>
+        <item>Send first and last key</item>
+        <item>Send all keys touched during sliding movement</item>
+    </string-array>
+
+    <string-array name="slide_keys_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="title_top_row_scale">5th row height adjustment</string>
+    <string name="title_label_scale">Key label scaling</string>
+    <string name="title_candidate_scale">Suggestion label scaling</string>
+    <string name="title_vibrate_len">Vibrate duration</string>
+    <string name="title_click_volume">Key click volume</string>
+    <string name="default_click_volume">0.2</string>
+    <string name="title_click_method">Click volume control method</string>
+    <string name="default_click_method">0</string>
+
+    <string-array name="click_method_entries">
+        <item>System default (ignore click volume)</item>
+        <item>Absolute click volume</item>
+        <item>Follow media volume</item>
+        <item>Reverse media volume</item>
+    </string-array>
+    <string-array name="click_method_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="title_long_press_duration">Long-press duration</string>
+    <string name="title_render_mode">Drawing method</string>
+    <string name="render_mode_unavailable">(not changeable on this device)</string>
+
+    <string-array name="render_mode_entries">
+        <item>Direct draw (saves memory)</item>
+        <item>Software buffered (default)</item>
+        <item>Hardware accelerated (experimental)</item>
+    </string-array>
+    <string-array name="render_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="pref_screen_actions_title">Gesture and key actions</string>
+    <string name="title_swipe_up">Swipe up</string>
+    <string name="title_swipe_down">Swipe down</string>
+    <string name="title_swipe_left">Swipe left</string>
+    <string name="title_swipe_right">Swipe right</string>
+    <string name="title_vol_up">Volume up</string>
+    <string name="title_vol_down">Volume down</string>
+
+    <string-array name="swipe_action_entries">
+        <item>(no action)</item>
+        <item>Close keyboard</item>
+        <item>Toggle extension row</item>
+        <item>Launch Settings</item>
+        <item>Toggle suggestions</item>
+        <item>Voice input</item>
+        <item>Switch keyboard layout</item>
+        <item>Increase height</item>
+        <item>Decrease height</item>
+        <item>Previous language</item>
+        -
+        <item>Next language</item>
+    </string-array>
+    <string-array name="swipe_action_values">
+        <item>none</item>
+        <item>close</item>
+        <item>extension</item>
+        <item>settings</item>
+        <item>suggestions</item>
+        <item>voice_input</item>
+        <item>full_mode</item>
+        <item>height_up</item>
+        <item>height_down</item>
+        <item>lang_prev</item>
+        -
+        <item>lang_next</item>
+    </string-array>
+
+    <string name="default_swipe_up">extension</string>
+    <string name="default_swipe_down">close</string>
+    <string name="default_swipe_left">none</string>
+    <string name="default_swipe_right">none</string>
+    <string name="default_vol_up">none</string>
+    <string name="default_vol_down">none</string>
+    <string name="title_popup_content">Popup mini-keyboard contents</string>
+
+    <string-array name="popup_content_entries">
+        <item>No popups</item>
+        <item>No popups, use auto-repeat</item>
+        <item>Unique only: 3 &#x21d2; ³, e &#x21d2; é</item>
+        <item>Add shifted: 3 &#x21d2; #³, e &#x21d2; é</item>
+        <item>Add upper: 3 &#x21d2; #³, e &#x21d2; Eé</item>
+        <item>Add self: 3 &#x21d2; 3#³, e &#x21d2; eEé</item>
+    </string-array>
+    <string-array name="popup_content_values">
+        <item>256</item>
+        <item>768</item>
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>7</item>
+    </string-array>
+
+    <string name="default_popup_content">1</string>
+    <string name="recorrect_warning">FYI: recorrection does not work correctly on pre-Gingerbread devices due to missing operating system support.</string>
+    <string name="english_ime_debug_settings" translatable="false">Debug settings</string>
+    <string name="prefs_debug_mode" translatable="false">Debug Mode</string>
+    <string name="seek_pref_0">0%</string>
+    <string name="seek_pref_val">x%</string>
+    <string name="seek_pref_max">100%</string>
+
+
+    <!-- for real-->
+
+    <string name="bannerunitid">ca-app-pub-8321083002189574/3798093917</string>
+
+
+    <!--for test-->
+
+<!--    <string name="bannerunitid">ca-app-pub-3940256099942544/6300978111</string>-->
+
+</resources>

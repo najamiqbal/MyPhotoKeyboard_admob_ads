@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ExtraTranslation" >
+    <string name="english_ime_input_options" msgid="3909945612939668554">"Invoeropties"</string>
+    <string name="vibrate_on_keypress" msgid="5258079494276955460">"Trillen bij toetsaanslag"</string>
+    <string name="sound_on_keypress" msgid="6093592297198243644">"Geluid bij toetsaanslag"</string>
+    <string name="popup_on_keypress" msgid="123894815723512944">"Pop-up bij toetsaanslag"</string>
+    <string name="prediction_category" msgid="7027100625580696660">"Instellingen voor woordsuggesties"</string>
+    <string name="auto_cap" msgid="1719746674854628252">"Auto-hoofdlettergebruik"</string>
+    <string name="quick_fixes" msgid="5353213327680897927">"Snelle oplossingen"</string>
+    <string name="quick_fixes_summary" msgid="3405028402510332373">"Hiermee worden veelvoorkomende typefouten gecorrigeerd"</string>
+    <string name="show_suggestions" msgid="507074425254289133">"Suggesties weergeven"</string>
+    <string name="show_suggestions_summary" msgid="1989672863935759654">"Voorgestelde woorden weergeven tijdens typen"</string>
+    <string name="auto_complete" msgid="1103196318775486023">"Auto-aanvullen"</string>
+    <string name="auto_complete_summary" msgid="6113149638718274624">"Gemarkeerd woord automatisch invoegen met spatiebalk en interpunctie"</string>
+    <string name="prefs_settings_key" msgid="4623341240804046498">"Instellingscode weergeven"</string>
+    <string name="settings_key_mode_auto_name" msgid="2993460277873684680">"Automatisch"</string>
+    <string name="settings_key_mode_always_show_name" msgid="3047567041784760575">"Altijd weergeven"</string>
+    <string name="settings_key_mode_always_hide_name" msgid="7833948046716923994">"Altijd verbergen"</string>
+    <string name="added_word" msgid="8993883354622484372">"<xliff:g id="WORD">%s</xliff:g>: opgeslagen"</string>
+    <string name="touch_to_continue" msgid="7869803257948414531">"Raak deze tip aan om door te gaan »"</string>
+    <string name="touch_to_finish" msgid="7990196086480585789">"Raak dit punt aan om deze tip te sluiten en te beginnen met typen."</string>
+    <string name="tip_to_open_keyboard" msgid="6821200275486950452"><b>"Het toetsenbord wordt geopend wanneer u een tekstveld aanraakt"</b></string>
+    <string name="tip_to_view_accents" msgid="5433158573693308501"><b>"Blijf een toets aanraken om diakritische tekens weer te geven"\n"(ø, ö, ô, ó, enzovoort)"</b></string>
+    <string name="tip_to_open_symbols" msgid="7345139325622444880"><b>"Schakel over naar cijfers en symbolen door deze toets aan te raken"</b></string>
+    <string name="tip_to_close_symbols" msgid="5227724217206927185"><b>"Ga terug naar letters door deze toets nogmaals aan te raken"</b></string>
+    <string name="tip_to_launch_settings" msgid="8402961128983196128"><b>"Blijf deze toets aanraken om toetsenbordinstellingen te wijzigen, zoals auto-aanvullen"</b></string>
+    <string name="tip_to_start_typing" msgid="7213843601369174313"><b>"Probeer het zelf!"</b></string>
+    <string name="label_go_key" msgid="1635148082137219148">"Beginnen"</string>
+    <string name="label_next_key" msgid="362972844525672568">"Volgende"</string>
+    <string name="label_done_key" msgid="2441578748772529288">"Gereed"</string>
+    <string name="label_send_key" msgid="2815056534433717444">"Verzenden"</string>
+    <string name="label_symbol_key" msgid="6175820506864489453">"?123"</string>
+    <string name="label_phone_key" msgid="4275497665515080551">"123"</string>
+    <string name="label_alpha_key" msgid="8864943487292437456">"ABC"</string>
+    <string name="label_alt_key" msgid="2846315350346694811">"Alt"</string>
+    <string name="voice_input" msgid="2466640768843347841">"Spraakinvoer"</string>
+  <string-array name="voice_input_modes">
+    <item msgid="1349082139076086774">"Op hoofdtoetsenbord"</item>
+    <item msgid="8529385602829095903">"Op toetsenbord voor symbolen"</item>
+    <item msgid="7283103513488381103">"Uit"</item>
+  </string-array>
+  <string-array name="voice_input_modes_summary">
+    <item msgid="554248625705084903">"Microfoon op hoofdtoetsenbord"</item>
+    <item msgid="6907837061058876770">"Microfoon op toetsenbord voor symbolen"</item>
+    <item msgid="3664304608587798036">"Spraakinvoer is uitgeschakeld"</item>
+  </string-array>
+    <string name="popular_domain_1" msgid="1370572248164278467">".net"</string>
+    <string name="popular_domain_2" msgid="3036812463748402878">".org"</string>
+    <string name="popular_domain_3" msgid="8718639560809452028">".gov"</string>
+    <string name="popular_domain_4" msgid="35359437471311470">".edu"</string>
+    <string name="selectInputMethod" msgid="315076553378705821">"Invoermethode selecteren"</string>
+    <string name="language_selection_title" msgid="1651299598555326750">"Invoertalen"</string>
+    <string name="language_selection_summary" msgid="187110938289512256">"Schuif uw vinger over de spatiebalk om de taal te wijzigen"</string>
+    <string name="hint_add_to_dictionary" msgid="9006292060636342317">"← Raak nogmaals aan om op te slaan"</string>
+    <string name="has_dictionary" msgid="6071847973466625007">"Woordenboek beschikbaar"</string>
+    <string name="prefs_enable_log" msgid="6620424505072963557">"Gebruikersfeedback inschakelen."</string>
+    <string name="prefs_description_log" msgid="5827825607258246003">"Help deze invoermethode te verbeteren door automatisch gebruiksstatistieken en crashmeldingen naar Google te verzenden."</string>
+    <string name="prefs_enable_recorrection" msgid="4588408906649533582">"Raak aan om woorden te corrigeren"</string>
+    <string name="prefs_enable_recorrection_summary" msgid="1056068922330206170">"Raak ingevoerde woorden aan om ze te corrigeren"</string>
+    <string name="keyboard_layout" msgid="437433231038683666">"Toetsenbordthema"</string>
+</resources>

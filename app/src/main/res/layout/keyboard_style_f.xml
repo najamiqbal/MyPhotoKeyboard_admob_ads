@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<keyboard.cheetahphotokeyboard.neon.My_Keybord_Img_Key
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:latin="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/LatinkeyboardBaseView"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img_defa"
+        android:textStyle="italic"
+
+        latin:keyBackground="@drawable/t_button_f"
+        latin:keyTextColor="@color/latinkeyboard_key_color_white"
+        latin:keyHintColor="#FF777777"
+        latin:keyCursorColor="@color/latinkeyboard_dim_color_white"
+        latin:shadowColor="@color/latinkeyboard_key_color_black"
+        latin:keyTextStyle="italic"
+        latin:symbolColorScheme="black"
+        latin:recolorSymbols="true"
+        latin:popupLayout="@layout/text_style_popup_keybord"
+        latin:backgroundAlpha="200"
+        />

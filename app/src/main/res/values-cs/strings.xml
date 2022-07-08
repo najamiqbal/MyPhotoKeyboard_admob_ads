@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ExtraTranslation" >
+    <string name="english_ime_input_options" msgid="3909945612939668554">"Možnosti zadávání textu a dat"</string>
+    <string name="vibrate_on_keypress" msgid="5258079494276955460">"Při stisku klávesy vibrovat"</string>
+    <string name="sound_on_keypress" msgid="6093592297198243644">"Zvuk při stisku klávesy"</string>
+    <string name="popup_on_keypress" msgid="123894815723512944">"Zobrazit znaky při stisku klávesy"</string>
+    <string name="prediction_category" msgid="7027100625580696660">"Nastavení návrhů slov"</string>
+    <string name="auto_cap" msgid="1719746674854628252">"Velká písmena automaticky"</string>
+    <string name="quick_fixes" msgid="5353213327680897927">"Rychlé opravy"</string>
+    <string name="quick_fixes_summary" msgid="3405028402510332373">"Opravuje nejčastější chyby při psaní"</string>
+    <string name="show_suggestions" msgid="507074425254289133">"Zobrazit návrhy"</string>
+    <string name="show_suggestions_summary" msgid="1989672863935759654">"Zobrazovat navržená slova během psaní"</string>
+    <string name="auto_complete" msgid="1103196318775486023">"Automatické dokončování"</string>
+    <string name="auto_complete_summary" msgid="6113149638718274624">"Stisknutím mezerníku nebo interpunkčního znaménka automaticky vložíte zvýrazněné slovo."</string>
+    <string name="prefs_settings_key" msgid="4623341240804046498">"Zobrazit klávesu Nastavení"</string>
+    <string name="settings_key_mode_auto_name" msgid="2993460277873684680">"Automaticky"</string>
+    <string name="settings_key_mode_always_show_name" msgid="3047567041784760575">"Vždy zobrazovat"</string>
+    <string name="settings_key_mode_always_hide_name" msgid="7833948046716923994">"Vždy skrývat"</string>
+    <string name="added_word" msgid="8993883354622484372">"<xliff:g id="WORD">%s</xliff:g>: Uloženo"</string>
+    <string name="touch_to_continue" msgid="7869803257948414531">"Chcete-li pokračovat, dotkněte se tohoto tipu »"</string>
+    <string name="touch_to_finish" msgid="7990196086480585789">"Chcete-li tento tip zavřít a začít psát, dotkněte se zde."</string>
+    <string name="tip_to_open_keyboard" msgid="6821200275486950452"><b>"Klávesnice se otevře vždy, když se dotknete textového pole."</b></string>
+    <string name="tip_to_view_accents" msgid="5433158573693308501"><b>"Přidržením klávesy zobrazíte diakritiku"\n"(ó, ø, ö, ô apod.)"</b></string>
+    <string name="tip_to_open_symbols" msgid="7345139325622444880"><b>"Chcete-li přepnout na režim zadávání číslic a symbolů, dotkněte se této klávesy."</b></string>
+    <string name="tip_to_close_symbols" msgid="5227724217206927185"><b>"Chcete-li přejít zpět k zadávání písmen, dotkněte se této klávesy znovu."</b></string>
+    <string name="tip_to_launch_settings" msgid="8402961128983196128"><b>"Přidržením této klávesy změníte nastavení klávesnice (např. automatické dokončování)."</b></string>
+    <string name="tip_to_start_typing" msgid="7213843601369174313"><b>"Vyzkoušejte si to."</b></string>
+    <string name="label_go_key" msgid="1635148082137219148">"Přejít"</string>
+    <string name="label_next_key" msgid="362972844525672568">"Další"</string>
+    <string name="label_done_key" msgid="2441578748772529288">"Hotovo"</string>
+    <string name="label_send_key" msgid="2815056534433717444">"Odeslat"</string>
+    <string name="label_symbol_key" msgid="6175820506864489453">"?123"</string>
+    <string name="label_phone_key" msgid="4275497665515080551">"123"</string>
+    <string name="label_alpha_key" msgid="8864943487292437456">"ABC"</string>
+    <string name="label_alt_key" msgid="2846315350346694811">"Alt"</string>
+    <string name="voice_input" msgid="2466640768843347841">"Hlasový vstup"</string>
+  <string-array name="voice_input_modes">
+    <item msgid="1349082139076086774">"Na hlavní klávesnici"</item>
+    <item msgid="8529385602829095903">"Na klávesnici se symboly"</item>
+    <item msgid="7283103513488381103">"Vypnout"</item>
+  </string-array>
+  <string-array name="voice_input_modes_summary">
+    <item msgid="554248625705084903">"Mikrofon na hlavní klávesnici"</item>
+    <item msgid="6907837061058876770">"Mikrofon na klávesnici se symboly"</item>
+    <item msgid="3664304608587798036">"Hlasový vstup je deaktivován"</item>
+  </string-array>
+    <string name="popular_domain_1" msgid="1370572248164278467">".cz"</string>
+    <string name="popular_domain_2" msgid="3036812463748402878">".org"</string>
+    <string name="popular_domain_3" msgid="8718639560809452028">".net"</string>
+    <string name="popular_domain_4" msgid="35359437471311470">".eu"</string>
+    <string name="selectInputMethod" msgid="315076553378705821">"Výběr metody zadávání dat"</string>
+    <string name="language_selection_title" msgid="1651299598555326750">"Vstupní jazyky"</string>
+    <string name="language_selection_summary" msgid="187110938289512256">"Jazyk můžete změnit posunutím prstu po mezerníku."</string>
+    <string name="hint_add_to_dictionary" msgid="9006292060636342317">"← Dalším dotykem slovo uložíte"</string>
+    <string name="has_dictionary" msgid="6071847973466625007">"K dispozici je slovník"</string>
+    <string name="prefs_enable_log" msgid="6620424505072963557">"Aktivovat zasílání statistik užívání a zpráv o selhání"</string>
+    <string name="prefs_description_log" msgid="5827825607258246003">"Automatickým zasíláním statistik o užívání editoru zadávání dat a zpráv o jeho selhání do Googlu můžete přispět k vylepšení tohoto nástroje."</string>
+    <string name="prefs_enable_recorrection" msgid="4588408906649533582">"Aktivovat opravy dotykem"</string>
+    <string name="prefs_enable_recorrection_summary" msgid="1056068922330206170">"Opravy napsaných slov dotykem"</string>
+    <string name="keyboard_layout" msgid="437433231038683666">"Motiv klávesnice"</string>
+</resources>

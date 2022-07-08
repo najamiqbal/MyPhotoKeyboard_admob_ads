@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ExtraTranslation" >
+    <string name="english_ime_input_options" msgid="3909945612939668554">"Giriş seçenekleri"</string>
+    <string name="vibrate_on_keypress" msgid="5258079494276955460">"Tuşa basıldığında titret"</string>
+    <string name="sound_on_keypress" msgid="6093592297198243644">"Tuşa basıldığında ses çıkar"</string>
+    <string name="popup_on_keypress" msgid="123894815723512944">"Tuşa basıldığında pop-up aç"</string>
+    <string name="prediction_category" msgid="7027100625580696660">"Kelime önerme ayarları"</string>
+    <string name="auto_cap" msgid="1719746674854628252">"Otomatik olarak büyük harf yap"</string>
+    <string name="quick_fixes" msgid="5353213327680897927">"Hızlı onarımlar"</string>
+    <string name="quick_fixes_summary" msgid="3405028402510332373">"Yaygın olarak yapılan yazım hatalarını düzeltir"</string>
+    <string name="show_suggestions" msgid="507074425254289133">"Önerileri göster"</string>
+    <string name="show_suggestions_summary" msgid="1989672863935759654">"Yazarken önerilen kelimeleri görüntüle"</string>
+    <string name="auto_complete" msgid="1103196318775486023">"Otomatik tamamla"</string>
+    <string name="auto_complete_summary" msgid="6113149638718274624">"Boşluk tuşu ve noktalama vurgulanan kelimeyi otomatik ekler"</string>
+    <string name="prefs_settings_key" msgid="4623341240804046498">"Ayarları göster tuşu"</string>
+    <string name="settings_key_mode_auto_name" msgid="2993460277873684680">"Otomatik"</string>
+    <string name="settings_key_mode_always_show_name" msgid="3047567041784760575">"Her zaman göster"</string>
+    <string name="settings_key_mode_always_hide_name" msgid="7833948046716923994">"Her zaman gizle"</string>
+    <string name="added_word" msgid="8993883354622484372">"<xliff:g id="WORD">%s</xliff:g> : Kaydedildi"</string>
+    <string name="touch_to_continue" msgid="7869803257948414531">"Devam etmek için bu ipucuna dokunun »"</string>
+    <string name="touch_to_finish" msgid="7990196086480585789">"Bu ipucunu kapatmak için buraya dokunun ve yazmaya başlayın!"</string>
+    <string name="tip_to_open_keyboard" msgid="6821200275486950452"><b>"Bir metin alanına dokunduğunuzda klavye açılır"</b></string>
+    <string name="tip_to_view_accents" msgid="5433158573693308501"><b>"Vurguları görüntülemek için bir tuşa basın ve basılı tutun"\n"(ø, ö, ô, ó v.b.)"</b></string>
+    <string name="tip_to_open_symbols" msgid="7345139325622444880"><b>"Bu tuşa dokunarak sayılar ve simgeler arasında geçiş yap"</b></string>
+    <string name="tip_to_close_symbols" msgid="5227724217206927185"><b>"Bu tuşa tekrar dokunarak harflere geri dönün"</b></string>
+    <string name="tip_to_launch_settings" msgid="8402961128983196128"><b>"Otomatik tamamlama gibi klavye ayarlarını değiştirmek için bu tuşa basın ve basılı tutun"</b></string>
+    <string name="tip_to_start_typing" msgid="7213843601369174313"><b>"Deneyin!"</b></string>
+    <string name="label_go_key" msgid="1635148082137219148">"Git"</string>
+    <string name="label_next_key" msgid="362972844525672568">"İleri"</string>
+    <string name="label_done_key" msgid="2441578748772529288">"Bitti"</string>
+    <string name="label_send_key" msgid="2815056534433717444">"Gönder"</string>
+    <string name="label_symbol_key" msgid="6175820506864489453">"?123"</string>
+    <string name="label_phone_key" msgid="4275497665515080551">"123"</string>
+    <string name="label_alpha_key" msgid="8864943487292437456">"ABC"</string>
+    <string name="label_alt_key" msgid="2846315350346694811">"ALT"</string>
+    <string name="voice_input" msgid="2466640768843347841">"Ses girişi"</string>
+  <string-array name="voice_input_modes">
+    <item msgid="1349082139076086774">"Ana klavyede"</item>
+    <item msgid="8529385602829095903">"Simge klavyesinde"</item>
+    <item msgid="7283103513488381103">"Kapalı"</item>
+  </string-array>
+  <string-array name="voice_input_modes_summary">
+    <item msgid="554248625705084903">"Ana klavyedeki mikrofon"</item>
+    <item msgid="6907837061058876770">"Simge klavyesindeki mikrofon"</item>
+    <item msgid="3664304608587798036">"Sesle giriş devre dışı bırakıldı"</item>
+  </string-array>
+    <string name="popular_domain_1" msgid="1370572248164278467">".net"</string>
+    <string name="popular_domain_2" msgid="3036812463748402878">".org"</string>
+    <string name="popular_domain_3" msgid="8718639560809452028">".gov"</string>
+    <string name="popular_domain_4" msgid="35359437471311470">".edu"</string>
+    <string name="selectInputMethod" msgid="315076553378705821">"Giriş yöntemini seç"</string>
+    <string name="language_selection_title" msgid="1651299598555326750">"Giriş dilleri"</string>
+    <string name="language_selection_summary" msgid="187110938289512256">"Dili değiştirmek için parmağınızı boşluk çubuğu üzerinde kaydırın"</string>
+    <string name="hint_add_to_dictionary" msgid="9006292060636342317">"← Kaydetmek için tekrar dokunun"</string>
+    <string name="has_dictionary" msgid="6071847973466625007">"Sözlük kullanılabilir"</string>
+    <string name="prefs_enable_log" msgid="6620424505072963557">"Kullanıcı geri bildirimini etkinleştir"</string>
+    <string name="prefs_description_log" msgid="5827825607258246003">"Kullanım istatistiklerini ve kilitlenme raporlarını Google\'a otomatik olarak göndererek bu giriş yöntemi düzenleyicisinin iyileştirilmesine yardımcı olun."</string>
+    <string name="prefs_enable_recorrection" msgid="4588408906649533582">"Kelimeleri düzeltmek için dokunun"</string>
+    <string name="prefs_enable_recorrection_summary" msgid="1056068922330206170">"Düzeltmek için, girilen kelimelere dokunun"</string>
+    <string name="keyboard_layout" msgid="437433231038683666">"Klavye Teması"</string>
+</resources>

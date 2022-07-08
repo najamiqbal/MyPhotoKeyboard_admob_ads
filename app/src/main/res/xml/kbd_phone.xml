@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard
+    xmlns:android="http://schemas.android.com/apk/res/keyboard.cheetahphotokeyboard.neon"
+    android:keyWidth="26.67%p"
+    android:horizontalGap="0px"
+    android:verticalGap="@dimen/key_bottom_gap"
+>
+    <Row
+        android:rowEdgeFlags="top"
+    >
+        <Key
+            android:codes="49"
+            android:keyIcon="@drawable/num_keywourd_1"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:codes="50"
+            android:keyIcon="@drawable/num_keywourd_2" />
+        <Key
+            android:codes="51"
+            android:keyIcon="@drawable/num_keywourd_3" />
+        <Key
+            android:keyLabel="-"
+            android:keyWidth="20%p"
+            android:isModifier="true"
+            android:keyEdgeFlags="right" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="52"
+            android:keyIcon="@drawable/num_keywourd_4"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:codes="53"
+            android:keyIcon="@drawable/num_keywourd_5" />
+        <Key
+            android:codes="54"
+            android:keyIcon="@drawable/num_keywourd_6" />
+        <Key
+            android:keyLabel="."
+            android:keyWidth="20%p"
+            android:isModifier="true"
+            android:keyEdgeFlags="right" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="55"
+            android:keyIcon="@drawable/num_keywourd_7"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:codes="56"
+            android:keyIcon="@drawable/num_keywourd_8" />
+        <Key
+            android:codes="57"
+            android:keyIcon="@drawable/num_keywourd_9" />
+        <Key
+            android:codes="@integer/key_delete"
+            android:keyIcon="@drawable/keybord_close"
+            android:iconPreview="@drawable/keybord_remove"
+            android:keyWidth="20%p"
+            android:isModifier="true"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right" />
+    </Row>
+    <Row
+        android:rowEdgeFlags="bottom"
+    >
+        <Key
+            android:codes="@integer/key_symbol"
+            android:keyIcon="@drawable/keyword_symbole_has"
+            android:iconPreview="@drawable/keybord_symbole"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:codes="48"
+            android:keyIcon="@drawable/num_keywourd_0" />
+        <Key
+            android:codes="@integer/key_space"
+            android:keyIcon="@drawable/keywourd_speshh"
+            android:iconPreview="@drawable/keybord_spesh" />
+        <Key
+            android:codes="@integer/key_return"
+            android:keyIcon="@drawable/keywourd_return"
+            android:keyWidth="20%p"
+            android:isModifier="true"
+            android:keyEdgeFlags="right" />
+    </Row>
+</Keyboard>
